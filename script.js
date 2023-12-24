@@ -1,4 +1,4 @@
-url = "http://localhost:8989/employeeshttps://voluble-paprenjak-89d6c2.netlify.app/.netlify/functions/api/employees"
+url = "https://voluble-paprenjak-89d6c2.netlify.app/.netlify/functions/api/employees"
 
 function fetchEmployees() {
 
