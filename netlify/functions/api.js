@@ -13,7 +13,6 @@ router.get('/', (req, res) => {
 
 /** Database connection [start] */
 // const conn_str = "mongodb+srv://<username>:<password>@cluster0.<clusterid>.mongodb.net/<databasename>?retryWrites=true&w=majority";
-const conn_str = "mongodb+srv://mern:mern@cluster0.dslyw.mongodb.net/zcompany?retryWrites=true&w=majority"
 const mongoose = require("mongoose");
 
 mongoose.connect(conn_str)
